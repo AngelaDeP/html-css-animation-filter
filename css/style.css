@@ -66,3 +66,16 @@ h1 {
 .red-square3:hover {
     border-radius: 50%;
 }
+
+.red-square4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
+    transition: all 3s;
+    opacity: 1;
+}
+
+.red-square4:hover {
+    opacity: 0;
+}
