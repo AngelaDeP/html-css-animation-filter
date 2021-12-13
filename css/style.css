@@ -79,3 +79,21 @@ h1 {
 .red-square4:hover {
     opacity: 0;
 }
+
+.red-square5 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
+    transition: all 3s;
+}
+
+.red-square5:hover {
+    width: 100px;
+    height: 100px;
+}
+
+.red-square5:active {
+    width: 20px;
+    height: 20px;
+}
