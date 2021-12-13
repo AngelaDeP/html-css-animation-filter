@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial;
+    color: rgb(66, 66, 66);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.grey-rec {
+    width: 100%;
+    background-color: rgb(250, 249, 249);
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.red-square1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 20px;
+    transition: all 3s;
+}
+
+.red-square1:hover {
+    background-color: rgb(255, 0, 0);
+}
