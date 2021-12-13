@@ -14,6 +14,10 @@ html {
     margin: auto;
 }
 
+.div-space {
+    margin: 0px 0px 20px 0px;
+}
+
 h1 {
     text-align: center;
     margin: 20px 0px;
@@ -37,4 +41,16 @@ h1 {
 
 .red-square1:hover {
     background-color: rgb(255, 0, 0);
+}
+
+.red-square2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
+    transition: width 2s;
+}
+
+.red-square2:active {
+    width: 97%;
 }
