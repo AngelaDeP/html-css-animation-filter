@@ -104,10 +104,14 @@ h1 {
     height: 20px;
 }
 
-.bnw-effect {
+.bnw-effect:hover {
+    filter: grayscale(100%);
+}
+
+.sepia-effect {
     transition: all 2s;
 }
 
-.bnw-effect:hover {
-    filter: grayscale(100%);
+.sepia-effect:hover {
+    filter: sepia(100%)
 }
