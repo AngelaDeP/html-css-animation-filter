@@ -18,6 +18,12 @@ html {
     margin: 0px 0px 20px 0px;
 }
 
+img {
+    width: 600px;
+    height: auto;
+    margin: 20px;
+}
+
 h1 {
     text-align: center;
     margin: 20px 0px;
@@ -96,4 +102,12 @@ h1 {
 .red-square5:active {
     width: 20px;
     height: 20px;
+}
+
+.bnw-effect {
+    transition: all 2s;
+}
+
+.bnw-effect:hover {
+    filter: grayscale(100%);
 }
